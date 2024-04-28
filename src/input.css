@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-black text-sm ; 
+  }
+  p{
+    @apply text-lg;
+  }
+}
+
+@layer components {
+  .card {
+    @apply w-full rounded-3xl p-8;
+  }
+  .white {
+    @apply text-white not-italic;
+  }
+  /* .wallpaper {
+    @apply  bg-[url('/assets/wallpaper-vertical.jpg')] bg-no-repeat ;
+  } */
+}
