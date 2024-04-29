@@ -1,6 +1,9 @@
 const adaConfetti = document.getElementById("confetti")
 const confetti = require('canvas-confetti');
 const Typed = require('typed.js')
+
+
+
 const element = new Typed("#typedMessage", {
     strings: ["Lets Keep In Touch with Me!","Hi! wanna talk about me?"],
     typeSpeed: 30,
