@@ -15,7 +15,7 @@ adaConfetti.addEventListener("click", () => {
     myCanvas.style.height = "70vh";
     myCanvas.style.position = "fixed"
     myCanvas.style.inset = 0;
-    myCanvas.style.zIndex = 999;
+    myCanvas.style.zIndex = -1;
     document.body.appendChild(myCanvas);
 
     const myConfetti = confetti.create(myCanvas, { resize: true, });
