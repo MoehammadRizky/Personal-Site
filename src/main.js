@@ -11,8 +11,8 @@ const element = new Typed("#typedMessage", {
 
 adaConfetti.addEventListener("click", () => {
     const myCanvas = document.createElement('canvas');
-    myCanvas.style.width = "70vh";
-    myCanvas.style.height = "70vh";
+    myCanvas.style.width = "100vh";
+    myCanvas.style.height = "100vh";
     myCanvas.style.position = "fixed"
     myCanvas.style.inset = 0;
     myCanvas.style.zIndex = -1;
